@@ -1,8 +1,9 @@
 import { Navbar, Nav, Container, Form, Button } from "react-bootstrap";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 const MyNavbar = (props) => {
-   
+    const location=useLocation()
     const [searchInput, setSearchInput] = useState("");
 
     const handleSearchClick = () => {
@@ -17,7 +18,7 @@ const MyNavbar = (props) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Link to="/" className="nav-link">
+            <Link to="/"className={location.pathname==="/"? "nav-link active text-black": "nav-link"  }>
           <div >Home</div>
           </Link>
             <Form className="d-flex">
