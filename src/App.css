@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(241,242,242,0) 0%, rgba(157,215,228,1) 21%, rgba(134,212,227,0.969625350140056) 42%, rgba(79,212,233,1) 66%, rgba(27,184,213,1) 100%);
+}
+.sfondo{
+  background: linear-gradient(180deg, rgba(241,242,242,0) 0%, rgba(157,215,228,1) 21%, rgba(134,212,227,0.969625350140056) 42%, rgba(79,212,233,1) 66%, rgba(27,184,213,1) 100%);
+  height: 100vh;
+}
+
+
+
+
